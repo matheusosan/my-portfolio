@@ -1,0 +1,14 @@
+#footer {
+    background-image: linear-gradient(90deg, #0583F2, #2E97F2);
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
