@@ -1,13 +1,14 @@
 import React from "react";
 import "./aboutMe.css";
-import MyPhoto from "../images/eu.jpg";
+// import MyPhoto from "../images/eu.jpg";
+import Me from "../images/me.jpeg"
 import { FaPhoneSquareAlt, FaLinkedin, FaGithubSquare, FaExternalLinkAlt } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 
 export const Div1 = (props) => {
   return (
       <aside id="about-me">
-        <img src={MyPhoto} alt="Minha Foto" id="eu" />
+        <img src={Me} alt="Minha Foto" id="eu" />
         <h3 id="first-child" >Minhas Informações</h3>
 
         <p className="about-itens">Email <AiOutlineMail className="about-svg" id="email"/>

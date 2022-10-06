@@ -14,7 +14,7 @@ export const Div2 = () => {
         <h3>Sobre mim</h3>
         <p>Olá, seja bem-vindo ao meu portfólio.
           Meu nome é Matheus de Oliveira, atualmente trabalho como auxiliar administrativo.
-          Há poucos meses atrás, fui apresentado ao mundo da programação por um antigo professor, que me recomendou o curso de JavaScript do canal Curso Em Video, como sempre fui curioso em saber como as coisas funcionam por baixo dos panos, fui me aprofundando no assunto. Atualmente, tenho cada vez mais me especializado com o objetivo de transitar de carreira e ingressar na minha primeira empresa de tecnologia com cargo de programador front-end.
+          Há poucos meses atrás, fui apresentado ao mundo da programação por um antigo professor, que me recomendou o curso de JavaScript do canal Curso Em Video, como sempre fui curioso em saber como as coisas funcionam por debaixo dos panos, fui me aprofundando no assunto. Atualmente, tenho cada vez mais me especializado com o objetivo de transitar de carreira e ingressar na minha primeira empresa de tecnologia com cargo de programador front-end.
         </p>
       </div>
       <div id="skills">
