@@ -9,7 +9,7 @@ import "./mainContent.css"
 export const Div2 = () => {
 
   return (
-    <div id="div2">
+    <main id="div2">
       <div id="main">
         <h3>Sobre mim</h3>
         <p>Olá, seja bem-vindo ao meu portfólio.
@@ -58,6 +58,6 @@ export const Div2 = () => {
         </div>
         
         </div>
-    </div>
+    </main>
   )
 }

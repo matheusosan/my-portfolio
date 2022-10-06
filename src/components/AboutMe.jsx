@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 
 export const Div1 = (props) => {
   return (
-      <div id="about-me">
+      <aside id="about-me">
         <img src={MyPhoto} alt="Minha Foto" id="eu" />
         <h3 id="first-child" >Minhas Informações</h3>
 
@@ -27,10 +27,10 @@ export const Div1 = (props) => {
         <a href={props.github} className="about-text" target="_blank" rel="noreferrer"> {props.github} <FaExternalLinkAlt className="redirect-svg"/>
         </a>
 
-        <h3 className="about-itens">Download do meu currículo</h3>
+        {/* <h3 className="about-itens">Download do meu currículo</h3>
         <a href="www.google.com" target="_blank">
           <button id="download-btn">Download</button>
-        </a>
-      </div>
+        </a> */}
+      </aside>
   );
 };

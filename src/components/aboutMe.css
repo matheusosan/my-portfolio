@@ -101,7 +101,7 @@ svg {
 @media (min-width: 300px) and (max-width: 600px){
   #about-me {
     margin-top: 0;
-    height: 70vh;
+    height: auto;
   }
   
   .about-text {
@@ -110,5 +110,9 @@ svg {
 
   #about-me a {
     font-size: .8em;
+  }
+
+  svg {
+    margin-left: 15px;
   }
 }
