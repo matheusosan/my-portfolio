@@ -28,9 +28,7 @@
 
 
 #main p {
-
     font-family: 'Poppins', sans-serif;
-
 }
 
 /* SKILLS */
@@ -64,9 +62,6 @@
     gap: 2em;
 }
 
-
-
-
 .tec-item {
     display: flex;
     align-items: center;
@@ -79,37 +74,41 @@
     background-color: #1d1d1d
 }
 
-.svg {
+.tec-item svg {
     font-size: 4em;
 }
 
-#html-logo {
+#html {
     color: #e34c26;
 }
 
-#css-logo {
+#css {
     color: #2965f1;
 }
 
-#sass-logo {
+#sass {
     color: #cc6699;
 }
 
-#bootstrap-logo {
+#bootstrap {
     color: #59287a;
 }
 
-#js-logo {
+#javascript {
     color: #f0db4f;
 }
 
-#react-logo {
+#react {
     color: #61dafb;
 }
 
-.svg-text {
+.tech-about {
     display: flex;
+    flex-direction: column;
     text-align: left;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
     padding: 1em;
     margin: 1em;
     background-color: #1d1d1d;
@@ -118,17 +117,22 @@
     border-radius: 5px;
 }
 
+.tech-about > p {
+    margin-top: .5em;
+}
+
 @media (min-width: 300px) and (max-width: 600px){
     .tec-item {
         width: 100%;
         height: auto;
     }
 
-
-    .svg-text {
+    .tech.about {
         font-size: 90%;
     }
 }
+
+
 
 @media (min-width: 601px) and (max-width: 1024px){
     .tec-item {
@@ -136,7 +140,7 @@
     }
 
 
-    .svg-text {
+    .tech.about {
         height: auto;
         font-size: 90%;
     }
