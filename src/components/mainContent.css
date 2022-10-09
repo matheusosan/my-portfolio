@@ -65,7 +65,7 @@
 .tec-item {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     width: 45%;
     height: 17em;
@@ -105,15 +105,16 @@
 .tech-about {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: left;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: 80%;
+    font-size: 85%;
     padding: 1em;
     margin: 1em;
     background-color: #1d1d1d;
     border: 2px solid #111;
-    height: auto;
+    height: 95%;
     width: 70%;
     border-radius: 5px;
 
