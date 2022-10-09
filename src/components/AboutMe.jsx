@@ -17,7 +17,7 @@ export const Div1 = (props) => {
       
         <p className="about-itens">Contato <FaPhoneSquareAlt className="about-svg" id="phone"/>
         </p>
-        <p className="about-text">{props.contato}</p>
+        <a href={props.whatsapp} className="about-text" target="_blank" rel="noreferrer">{props.contato} <FaExternalLinkAlt className="redirect-svg"/></a>
       
         <p className="about-itens">Perfil LinkedIn <FaLinkedin className="about-svg" id="linkedin"/></p>
           <a href={props.linkedin} className="about-text" target="_blank" rel="noreferrer">

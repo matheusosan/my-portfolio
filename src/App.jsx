@@ -11,6 +11,7 @@ function App(props) {
       <Header />
       <div id="portfolio">
         <Div1
+          whatsapp="https://wa.me/+5551986555481"
           email="matheussantanaoli@gmail.com"
           contato="(51) 98655-5481"
           linkedin="https://linkedin.com/in/matheusosan"
