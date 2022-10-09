@@ -111,3 +111,9 @@
     margin-left: 15px;
   }
 }
+
+@media (min-width: 801px) and (max-width: 1200px){
+  #about-me {
+    width: 70%;
+  } 
+}

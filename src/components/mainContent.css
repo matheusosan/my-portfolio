@@ -67,8 +67,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 35%;
-    height: 15em;
+    width: 45%;
+    height: 17em;
     border-radius: 5px;
     border: 2px solid rgb(42, 42, 42);
     background-color: #1d1d1d
@@ -108,20 +108,22 @@
     text-align: left;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: .9em;
+    font-size: 80%;
     padding: 1em;
     margin: 1em;
     background-color: #1d1d1d;
     border: 2px solid #111;
+    height: auto;
     width: 70%;
     border-radius: 5px;
+
 }
 
 .tech-about > p {
     margin-top: .5em;
 }
 
-@media (min-width: 300px) and (max-width: 600px){
+@media (min-width: 300px) and (max-width: 800px){
     .tec-item {
         width: 100%;
         height: auto;
@@ -134,14 +136,29 @@
 
 
 
-@media (min-width: 601px) and (max-width: 1024px){
+@media (min-width: 801px) and (max-width: 1200px){
+    #tecs-grid {
+        width: 100%;
+    }
+    
     .tec-item {
         width: 80%;
+
     }
 
 
     .tech.about {
         height: auto;
         font-size: 90%;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1350px){
+    .tec-item {
+        width: 70%;
+    }
+
+    .tech-about {
+        font-size: 75%;
     }
 }
